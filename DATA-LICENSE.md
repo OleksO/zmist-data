@@ -4,7 +4,7 @@ The game data that ships with «Зміст» (the word dictionary, the form tabl
 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**:
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-This applies to the data files only (`dictionary.txt`, `forms.txt`, `packs/*.bin`, `manifest.json`, the start-screen word list `wallwords.txt` and files of the same kind, as they are in the app bundle). Where the files are published: https://github.com/OleksO/zmist-data (the files are added here with the first public release of the app; ranking packs are published for days that have already passed). The app code is a separate work and is not covered by this file. The data is kept in separate resource files so that the two stay separate.
+This applies to the data files only (`dictionary.txt`, `forms.txt`, `packs/*.bin`, `manifest.json`, the start-screen word list `wallwords.txt` and files of the same kind, as they are in the app bundle). These files are published at https://github.com/OleksO/zmist-data with the first release of the app. The app code is a separate work and is not covered by this file. The data is kept in separate resource files so that the two stay separate.
 
 ## Attribution
 
@@ -27,4 +27,4 @@ The ranking packs order that dictionary by closeness to each daily word. They ar
 - The list of daily answers (`data/answers/*.tsv`), `schedule.json`, the override files (`data/overrides/*.yaml`) and the build tools are our own work and are not part of the published data files. They live in the private repository; it must not be made public with them in the tree or in the history. Note that each ranking pack has its answer at rank 1, so publishing a pack for a future day publishes that day's answer.
 - `wordfreq` (code Apache-2.0, data CC BY-SA 4.0) is used only as a build-time frequency filter; no number or text from it is shipped. Whether ShareAlike reaches a cut-off derived from it is untested.
 
-This is an engineering reading of the licence, not legal advice. Full origins and licences of every input: `docs/licenses.md` (section "Release inventory"). The icon and logo of the app are not covered by this file (their licence status is open, see the same file).
+This is an engineering reading of the licence, not legal advice. Full origins and licences of every input: `docs/licenses.md` (section "Release inventory"). The icon and logo of the app are not covered by this file (the icon is an own drawing; the logo's licence status is open, see the same file).

@@ -1,0 +1,32 @@
+{
+ "formatVersion": 1,
+ "dataVersion": "proto-vesum",
+ "dictionary": {
+  "file": "dictionary.txt",
+  "count": 29000
+ },
+ "forms": {
+  "file": "forms.txt"
+ },
+ "publishedBefore": "2026-10-29",
+ "packs": [
+  {
+   "wordId": "w8359d550a4",
+   "role": "daily",
+   "puzzle": -67,
+   "date": "2026-10-26"
+  },
+  {
+   "wordId": "w52e392e0df",
+   "role": "daily",
+   "puzzle": -66,
+   "date": "2026-10-27"
+  },
+  {
+   "wordId": "w2f456e19b7",
+   "role": "daily",
+   "puzzle": -65,
+   "date": "2026-10-28"
+  }
+ ]
+}
