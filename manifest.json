@@ -1,6 +1,6 @@
 {
  "formatVersion": 1,
- "dataVersion": "proto-vesum",
+ "dataVersion": "vesum-6.8.6-1",
  "dictionary": {
   "file": "dictionary.txt",
   "count": 29000
@@ -8,25 +8,31 @@
  "forms": {
   "file": "forms.txt"
  },
- "publishedBefore": "2026-10-29",
+ "publishedBefore": "2026-10-30",
  "packs": [
   {
    "wordId": "w8359d550a4",
    "role": "daily",
-   "puzzle": -67,
+   "puzzle": 1,
    "date": "2026-10-26"
   },
   {
    "wordId": "w52e392e0df",
    "role": "daily",
-   "puzzle": -66,
+   "puzzle": 2,
    "date": "2026-10-27"
   },
   {
    "wordId": "w2f456e19b7",
    "role": "daily",
-   "puzzle": -65,
+   "puzzle": 3,
    "date": "2026-10-28"
+  },
+  {
+   "wordId": "w792e41f749",
+   "role": "daily",
+   "puzzle": 4,
+   "date": "2026-10-29"
   }
  ]
 }

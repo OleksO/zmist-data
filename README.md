@@ -4,7 +4,7 @@ Repository / Репозиторій: https://github.com/OleksO/zmist-data
 
 ## Українською
 
-Це відкриті дані гри «Зміст» (щоденна словесна головоломка). Стан на 2026-10-29: пакети рейтингів лише для днів до цієї дати.
+Це відкриті дані гри «Зміст» (щоденна словесна головоломка). Стан на 2026-10-30: пакети рейтингів лише для днів до цієї дати.
 
 Файли:
 
@@ -12,7 +12,7 @@ Repository / Репозиторій: https://github.com/OleksO/zmist-data
 - `forms.txt` - таблиця форм слів: форма і номери лем у словнику.
 - `wallwords.txt` - список слів для початкового екрана.
 - `manifest.json` - опис файлів і версії даних; для кожного пакета вказано номер головоломки та дату.
-- `packs/*.bin` - рейтинги близькості слів за один день (3 пакетів, дні 2026-10-26 ... 2026-10-28).
+- `packs/*.bin` - рейтинги близькості слів за один день (4 пакетів, дні 2026-10-26 ... 2026-10-29).
 - `DATA-LICENSE.md` - умови ліцензії та авторство.
 
 Пакети публікуються із затримкою: пакет дня містить загадане слово, тому він з'являється тут лише після того, як день минув (зазвичай щотижня або щомісяця).
@@ -27,7 +27,7 @@ Repository / Репозиторій: https://github.com/OleksO/zmist-data
 
 ## English
 
-These are the open data files of the daily word game "Zmist" (Contexto-style). State as of 2026-10-29: ranking packs are included only for puzzle days before that date.
+These are the open data files of the daily word game "Zmist" (Contexto-style). State as of 2026-10-30: ranking packs are included only for puzzle days before that date.
 
 Files:
 
@@ -35,7 +35,7 @@ Files:
 - `forms.txt` - word-form table: a form and the dictionary indexes of its lemmas.
 - `wallwords.txt` - word list for the start screen.
 - `manifest.json` - describes the files and the data version; every pack lists its puzzle number and date.
-- `packs/*.bin` - word-closeness rankings, one per day (3 packs, days 2026-10-26 ... 2026-10-28).
+- `packs/*.bin` - word-closeness rankings, one per day (4 packs, days 2026-10-26 ... 2026-10-29).
 - `DATA-LICENSE.md` - licence terms and credits.
 
 Packs are published with a delay: the pack of a day holds that day's answer (rank 1), so it appears here only after the day has passed (usually in a weekly or monthly batch).
