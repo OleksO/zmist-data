@@ -1,14 +1,19 @@
 {
  "formatVersion": 1,
- "dataVersion": "vesum-6.8.6-1",
+ "dataVersion": "vesum-6.8.6-3",
  "dictionary": {
   "file": "dictionary.txt",
-  "count": 29000
+  "count": 28557
  },
  "forms": {
   "file": "forms.txt"
  },
- "publishedBefore": "2026-10-30",
+ "definitions": {
+  "file": "definitions.tsv",
+  "count": 28557,
+  "sha256": "a12d7bbccabcceac8c35521b155d49b568f85273ae8d5ca7f3e7e9c933e0f305"
+ },
+ "publishedBefore": "2026-11-07",
  "packs": [
   {
    "wordId": "w8359d550a4",
@@ -33,6 +38,54 @@
    "role": "daily",
    "puzzle": 4,
    "date": "2026-10-29"
+  },
+  {
+   "wordId": "w08c8846906",
+   "role": "daily",
+   "puzzle": 5,
+   "date": "2026-10-30"
+  },
+  {
+   "wordId": "wa82905f834",
+   "role": "daily",
+   "puzzle": 6,
+   "date": "2026-10-31"
+  },
+  {
+   "wordId": "w3ab88a1d79",
+   "role": "daily",
+   "puzzle": 7,
+   "date": "2026-11-01"
+  },
+  {
+   "wordId": "wed394620f0",
+   "role": "daily",
+   "puzzle": 8,
+   "date": "2026-11-02"
+  },
+  {
+   "wordId": "w79615ddac2",
+   "role": "daily",
+   "puzzle": 9,
+   "date": "2026-11-03"
+  },
+  {
+   "wordId": "w5f1cf0482b",
+   "role": "daily",
+   "puzzle": 10,
+   "date": "2026-11-04"
+  },
+  {
+   "wordId": "wc3bc4d97c0",
+   "role": "daily",
+   "puzzle": 11,
+   "date": "2026-11-05"
+  },
+  {
+   "wordId": "w701c407a65",
+   "role": "daily",
+   "puzzle": 12,
+   "date": "2026-11-06"
   }
  ]
 }

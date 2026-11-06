@@ -4,7 +4,7 @@ The game data that ships with «Зміст» (the word dictionary, the form tabl
 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**:
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-This applies to the data files only (`dictionary.txt`, `forms.txt`, `packs/*.bin`, `manifest.json`, the start-screen word list `wallwords.txt` and files of the same kind, as they are in the app bundle). These files are published at https://github.com/OleksO/zmist-data with the first release of the app. The app code is a separate work and is not covered by this file. The data is kept in separate resource files so that the two stay separate.
+This applies to the data files only (`dictionary.txt`, `forms.txt`, `packs/*.bin`, `manifest.json`, the start-screen word list `wallwords.txt`, the short word descriptions `definitions.tsv` and files of the same kind, as they are in the app bundle). These files are published at https://github.com/OleksO/zmist-data with the first release of the app. The app code is a separate work and is not covered by this file. The data is kept in separate resource files so that the two stay separate.
 
 ## Attribution
 
@@ -25,6 +25,7 @@ The ranking packs order that dictionary by closeness to each daily word. They ar
 - If you share changed data, you must do it under CC BY-NC-SA 4.0.
 - The app is free and non-commercial: no ads, no accounts, no purchases. See `docs/adr/0013-non-commercial-distribution.md`.
 - The list of daily answers (`data/answers/*.tsv`), `schedule.json`, the override files (`data/overrides/*.yaml`) and the build tools are our own work and are not part of the published data files. They live in the private repository; it must not be made public with them in the tree or in the history. Note that each ranking pack has its answer at rank 1, so publishing a pack for a future day publishes that day's answer.
+- `definitions.tsv` (the short word descriptions shown on the word card, owner decision 2026-11-06) is our own text: each line was written by an AI agent in its own words, without the reference text in front of it (4-12 words, one main sense), and then checked by a second agent against reference dictionaries that the writer never saw; a line that repeated a run of 5 or more words of a reference was rejected, and the reference texts were not kept in the repository. It is published under the same licence as the other data files (CC BY-NC-SA 4.0). No separate source credit is shown in the app; the screen «Дані та ліцензія» covers the data files. Whether the rights in an AI-written text are enforceable differs by country and was not checked.
 - `wordfreq` (code Apache-2.0, data CC BY-SA 4.0) is used only as a build-time frequency filter; no number or text from it is shipped. Whether ShareAlike reaches a cut-off derived from it is untested.
 
 This is an engineering reading of the licence, not legal advice. Full origins and licences of every input: `docs/licenses.md` (section "Release inventory"). The icon and logo of the app are not covered by this file (the icon is an own drawing; the logo's licence status is open, see the same file).
